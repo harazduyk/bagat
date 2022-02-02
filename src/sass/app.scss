@@ -8,3 +8,111 @@
   background-color: #ffffff;
   padding: 3% 0 1% 16%;
 }
+
+.transport {
+  width: 100%;
+  background-image: url("../img/bg1.png");
+  @include backgroundImage;
+  padding: 5% 0 0 16%;
+
+  & h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+
+  & h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 3%;
+  }
+
+  & p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    margin-top: 2%;
+  }
+
+  &__pric {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+    border: none;
+    background-color: #DC0C1C;
+    padding: 1% 0;
+    margin-top: 3%;
+
+    &:hover {
+      background-color: #7f040d;
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+
+  &__service {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 1% 0;
+    margin-top: 1%;
+
+    &:hover {
+      background-color: #3D3C3C89;
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+
+  &__icons {
+    display: flex;
+    margin-top: 6%;
+
+    &_cell {
+      width: 13%;
+      text-align: center;
+      border: 2px solid #ffffff;
+      padding: 2% 1% 1% 1%;
+
+      & h5 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        color: #ffffff;
+        margin-top: 15%;
+      }
+        & span {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 10px;
+          font-weight: 300;
+          border: 1px solid #ffffff;
+          padding: 5%;
+          color: #ffffff;
+        }
+      }
+    & :hover {
+      background-color: #000000CD;
+    }
+    }
+  }
+
