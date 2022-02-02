@@ -2,3 +2,9 @@
 @import '_variables';
 @import '_desktop.scss';
 @import '_responsive';
+
+.header {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 3% 0 1% 16%;
+}
