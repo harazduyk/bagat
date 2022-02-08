@@ -354,7 +354,6 @@
   width: 100%;
   background-color: #F6F6F6;
   padding: 3% 0 5% 15.3%;
-
   & h5 {
     font-size: 14px;
     font-weight: 400;
@@ -408,6 +407,39 @@
         width: 18%;
         height: 50px;
         margin-bottom: 2%;
+      }
+    }
+  }
+}
+
+.trust {
+  width: 100%;
+  padding: 3% 0 2% 15.3%;
+  & h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #DC0C1C;
+  }
+  & h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 2%;
+  }
+  &__line {
+    display: flex;
+    margin: 3% 0;
+    & img {
+      width: 25%;
+      margin-right: 3%;
+    }
+    & p {
+      font-size: 16px;
+      font-weight: 400;
+      margin-right: 10%;
+
+      & span {
+        font-weight: 600;
+        color: #DC0C1C;
       }
     }
   }
