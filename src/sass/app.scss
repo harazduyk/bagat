@@ -349,3 +349,66 @@
     }
   }
 }
+
+.price {
+  width: 100%;
+  background-color: #F6F6F6;
+  padding: 3% 0 5% 15.3%;
+
+  & h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #DC0C1C;
+  }
+
+  & h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  &__line {
+    display: flex;
+    margin: 3% 0;
+    & p {
+      font-size: 16px;
+      font-weight: 400;
+
+      & span {
+        font-weight: 600;
+        color: #DC0C1C;
+      }
+    }
+    &_left {
+      & a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 700;
+        color: #DC0C1C;
+        & svg {
+          width: 6%;
+          height: 23px;
+        }
+      }
+    }
+    &_inf {
+      width: 25%;
+      display: block;
+      margin-right: 3%;
+      & h2 {
+        font-size: 48px;
+        font-weight: 400;
+        color: #DC0C1C;
+      }
+      & hr {
+        border: 1px solid #B0B0B0;
+      }
+    }
+    &_about {
+      margin-right: 6%;
+      & svg {
+        width: 18%;
+        height: 50px;
+        margin-bottom: 2%;
+      }
+    }
+  }
+}
