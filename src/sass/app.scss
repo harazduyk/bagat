@@ -627,3 +627,45 @@
     }
   }
 }
+
+.application {
+  width: 100%;
+  background-color: #F6F6F6;
+  padding: 3% 15.3% 5% 15.3%;
+  & h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #DC0C1C;
+  }
+  & h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 2% 0 4% 0;
+  }
+  & p {
+    font-size: 18px;
+    font-weight: 400;
+    & a {
+      color: #DC0C1C;
+    }
+  }
+  &__button {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+    border: none;
+    background-color: #DC0C1C;
+    padding: 1% 0;
+    margin-top: 3%;
+    &:hover {
+      background-color: #7f040d;
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+}
