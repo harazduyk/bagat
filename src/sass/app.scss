@@ -544,3 +544,86 @@
     bottom: -10px;
   }
 }
+
+.about {
+  width: 100%;
+  padding: 3% 15.3% 5% 15.3%;
+  & h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #DC0C1C;
+  }
+  & h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 2% 0 4% 0;
+  }
+  &__line {
+    display: flex;
+    &_company {
+      width: 25%;
+      text-align: center;
+      background-color: #F6F6F6;
+      margin: 2% 3% 8% 0;
+      &_nastle {
+        width: 50%;
+      }
+      &_procter {
+        width: 80%;
+      }
+      & img {
+        margin-top: 22%;
+      }
+    }
+    &_block {
+      width: 46%;
+      margin-right: 4%;
+      & h2 {
+        font-size: 22px;
+        font-weight: 600;
+      }
+      &_date {
+        display: flex;
+        justify-content: space-between;
+        & span {
+          font-size: 14px;
+          font-weight: 500;
+          color: #B0B0B0;
+        }
+        & svg {
+          width: 3%;
+          height: 20px;
+        }
+      }
+      & img {
+        width: 100%;
+      }
+    }
+  }
+  .accordion-button:not(.collapse) {
+    background-color: #ffffff;
+    color: #231f20;
+  }
+  .accordion {
+    margin: 2% 0 7% 0;
+  }
+  & a {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+    border: none;
+    background-color: #DC0C1C;
+    padding: 1% 0;
+    margin-top: 3%;
+    &:hover {
+      background-color: #7f040d;
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+}
