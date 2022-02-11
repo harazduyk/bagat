@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <include src="src/templates/head.html" locals='{"title": "Форма"}'></include>
+</head>
+
+<body>
+<include src="src/templates/header.html"></include>
+
+<main class="page">
+  <div class="page__view">
+    <h2><svg>
+      <use xlink:href="./img/sprite.svg#car"></use>
+    </svg> Автомобільний</h2>
+    <h2><svg>
+      <use xlink:href="./img/sprite.svg#train"></use>
+    </svg> Залізничний</h2>
+    <h2><svg>
+      <use xlink:href="./img/sprite.svg#combo"></use>
+    </svg> Комбінований</h2>
+    <h2><svg>
+      <use xlink:href="./img/sprite.svg#box2"></use>
+    </svg> Збірний</h2>
+    <h2><svg>
+      <use xlink:href="./img/sprite.svg#plane"></use>
+    </svg> Авіа</h2>
+    <h2><svg>
+      <use xlink:href="./img/sprite.svg#see"></use>
+    </svg> Морський</h2>
+  </div>
+  <h5>Пропозиції</h5>
+  <div class="page__line">
+    <h1>Замовте перевезення <br> вашого вантажу за <br> вигідною ціною прямо зараз</h1>
+    <p class="page__line_textp">Зв'яжіться з нами, або залиште заявку <br> по <a class="page__line_email" href="#">електронній пошті</a></p>
+  </div>
+  <form action="#" method="get" class="page__form">
+    <div class="page__form_block">
+      <input type="text" required placeholder="Ваше ім'я">
+      <input type="text" required placeholder="Ваш телефон">
+      <input type="text" required placeholder="Ваш e-mail">
+    </div>
+    <div class="page__form_block">
+      <select name="type_car">
+        <option value="">Виберіть тип транспорту</option>
+        <option value="1">Автомобільний</option>
+        <option value="1">Залізничний</option>
+        <option value="1">Комбінований</option>
+        <option value="1">Збірний</option>
+        <option value="1">Авіа</option>
+        <option value="1">Морський</option>
+      </select>
+      <input type="text" placeholder="Звідки">
+      <input type="text" placeholder="Куди">
+    </div>
+    <div class="page__form_block">
+      <input type="text" placeholder="Об'єм грузу та вага">
+      <textarea name="text" cols="30" rows="5" placeholder="Доброго дня, хотілося б дізнатися докладніше про умови доставки з Латвії до Росії"></textarea>
+    </div>
+  </form>
+  <div class="page__line">
+    <a class="page__line_attach" href="#" ><svg>
+      <use xlink:href="./img/sprite.svg#attach"></use>
+    </svg>Прикріпити файл</a>
+    <p class="page__line_file">Ви можете прикріпити не більше 5 файлів таких форматів: <br> zip, pdf, docx, jpg, txt, png, djvu загальним розміром не більше 25МБ</p>
+  </div>
+  <a class="page__button" href="#">Залишити заявку</a>
+  <div class="page__line">
+    <svg>
+      <use xlink:href="./img/sprite.svg#okey"></use>
+    </svg>
+    <p class="page__line_textp">Я згоден на обробку <span>моїх персональних даних</span> <br> та ознайомився з <span>політикою обробки персональних даних</span></p>
+  </div>
+</main>
+
+<include src="src/templates/footer.html"></include>
+</body>
+</html>
