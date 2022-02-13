@@ -2,6 +2,9 @@
 @import '_variables';
 @import '_desktop.scss';
 
+body {
+  overflow-x: hidden;
+}
 
 * {
   font-family: 'Montserrat', sans-serif;
@@ -866,6 +869,9 @@
   &__line {
     display: flex;
     align-items: center;
+    &_checkbox {
+      width: 5%;
+    }
     & h1 {
       font-size: 32px;
       font-weight: 700;
@@ -947,4 +953,6 @@
     }
   }
 }
+
+
 @import '_responsive';
